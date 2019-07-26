@@ -1,0 +1,55 @@
+<PISI>
+    <Source>
+        <Name>hydrapaper</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>desktop</PartOf>
+        <Summary xml:lang="en">HydraPaper Multi Monitor Wallpaper Utility</Summary>
+        <Description xml:lang="en">A Gtk utility to set two different backgrounds for each monitor on GNOME, Budgie and MATE.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>hydrapaper</Name>
+        <Summary xml:lang="en">HydraPaper Multi Monitor Wallpaper Utility</Summary>
+        <Description xml:lang="en">A Gtk utility to set two different backgrounds for each monitor on GNOME, Budgie and MATE.
+</Description>
+        <PartOf>desktop</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/hydrapaper</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/__main__.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/listbox_helper.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/monitor_parser.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/threading_helper.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/wallpaper_flowbox_item.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/wallpaper_merger.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/__pycache__/wallpapers_folder_listbox_row.cpython-36.opt-2.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/listbox_helper.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/monitor_parser.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/threading_helper.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/wallpaper_flowbox_item.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/wallpaper_merger.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/hydrapaper/wallpapers_folder_listbox_row.py</Path>
+            <Path fileType="data">/usr/share/applications/org.gabmus.hydrapaper.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gabmus.hydrapaper.service</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.gabmus.hydrapaper.gschema.xml</Path>
+            <Path fileType="data">/usr/share/hydrapaper/org.gabmus.hydrapaper.gresource</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gabmus.hydrapaper.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/org.gabmus.hydrapaper-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/metainfo/org.gabmus.hydrapaper.appdata.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-07-26</Date>
+            <Version>1.4.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin.zobel@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

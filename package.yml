@@ -1,0 +1,21 @@
+name       : hydrapaper
+version    : 1.4.2
+release    : 1
+source     :
+    - https://gitlab.com/gabmus/HydraPaper/-/archive/1.4.2/HydraPaper-1.4.2.tar.bz2 : aae2bdf5970b0e6fa687c9f20f07360251306f1b61188cca3ebe222430a727e8
+license    : GPL-3.0
+component  : desktop
+summary    : HydraPaper Multi Monitor Wallpaper Utility
+description: |
+    A Gtk utility to set two different backgrounds for each monitor on GNOME, Budgie and MATE.
+builddeps  :
+    - pkgconfig(gtk+-3.0)
+rundeps    :
+    - python-gmconfig
+    - python-gmgtk
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install
